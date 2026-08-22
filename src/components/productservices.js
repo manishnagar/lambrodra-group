@@ -73,27 +73,27 @@ function ProductServices() {
               min-h-[280px]
               bg-white
               rounded-2xl
-              border
+              border-2
               border-orange-600
-              shadow-md
+              shadow-2xl
               p-5
               sm:p-6
               flex
               flex-col
               items-center
               text-center
-              hover:shadow-xl
+              hover:shadow-2xl
               hover:-translate-y-1
               transition-all
               duration-300
             "
           >
             {/* Icon */}
-            <div className="flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 mb-4">
+            <div className="flex items-center justify-center w-18 h-18 sm:w-18 sm:h-18 mb-4">
               <img
                 src={s.icon}
                 alt={s.title}
-                className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
+                className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
               />
             </div>
 
@@ -152,25 +152,26 @@ function ProductServices() {
       {/* View More / Less */}
       <div className="flex justify-center mt-7 sm:mt-8">
         <button
-          onClick={() => setShowAll(!showAll)}
-          className="
-            bg-orange-600
-            text-white
-            px-6
-            sm:px-8
-            py-2.5
-            rounded-full
-            font-semibold
-            text-sm
-            sm:text-base
-            hover:bg-orange-700
-            active:scale-95
-            transition
-            duration-200
-          "
-        >
-          {showAll ? "View Less" : "View More"}
-        </button>
+  onClick={() => setShowAll(!showAll)}
+  className="
+    bg-orange-600
+    text-white
+    px-6 sm:px-8
+    py-2.5
+    rounded-full
+    font-semibold
+    text-sm sm:text-sm
+    hover:bg-white
+    hover:text-orange-600   /* ✅ text changes on hover */
+    hover:border hover:border-orange-600  /* ✅ border appears on hover */
+    active:scale-95
+    transition
+    duration-500
+  "
+>
+  {showAll ? "View Less" : "View More"}
+</button>
+
       </div>
     </section>
   );

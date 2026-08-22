@@ -79,7 +79,7 @@ function OurGrowth() {
         </div>
 
         {/* Timeline Items */}
-        <div className="space-y-12 sm:space-y-16 md:space-y-24">
+       <div className="space-y-8 sm:space-y-10 md:space-y-12">
 
           {milestones.map((m, i) => (
             <div
@@ -88,8 +88,8 @@ function OurGrowth() {
                 timeline-item
                 relative
                 min-h-[100px]
-                sm:min-h-[110px]
-                md:min-h-[120px]
+                sm:min-h-70px]
+                md:min-h-[80px]
                 flex
                 items-center
               "
@@ -99,26 +99,23 @@ function OurGrowth() {
               <div
                 className={`
                   absolute
-                  left-6
-                  sm:left-8
-                  md:left-1/2
+                  top-0
+                  left-6 sm:left-8 md:left-1/2
                   md:-translate-x-1/2
                   -translate-x-1/2
-                  w-5
-                  h-5
+                  w-5 h-5
                   sm:w-6
                   sm:h-6
-                  rounded-full
-                  border-4
-                  z-10
-                  transition-all
-                  duration-500
+                  rounded-full border-4 z-10
+                  transition-all duration-500
+                   ${i <= activeIndex ? "bg-orange-600 border-orange-600 left-3"  : "bg-white border-gray-400 left-3"}
                   ${
                     i <= activeIndex
                       ? "bg-orange-600 border-orange-600"
                       : "bg-white border-gray-400"
                   }
                 `}
+                
               />
 
               {/* Timeline Content */}
@@ -143,8 +140,8 @@ function OurGrowth() {
                   className={`
                     w-full
                     max-w-md
-                    p-4
-                    sm:p-5
+                    p-3
+                    sm:p-3
                     rounded-xl
                     shadow-md
                     border
@@ -176,9 +173,9 @@ function OurGrowth() {
                   <p
                     className="
                       text-gray-600
-                      text-xs
-                      sm:text-sm
-                      md:text-base
+                      text-[12px]
+                      sm:text-xs
+                      md:text-sm
                       leading-5
                       sm:leading-6
                     "
