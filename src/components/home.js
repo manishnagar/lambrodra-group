@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 import HeroBG from '../assets/images/herobg.png';
 import CircleBG from '../assets/images/circle-bg1.png';
 import ManImg from '../assets/images/man.png';
@@ -410,10 +411,13 @@ const Slider = [
         <ProductServices />
       </section>
 
-      {/* 
-      <section className="px-4 sm:px-8 md:px-12 py-10 md:py-14">
+      
+      
+{/* What our Customer says */}
+<Testimonials/>
+<section className="px-6 sm:px-8 md:px-12 py-10 md:py-14 bg-orange-100">
         <div
-          className="w-full bg-orange-600 bg-cover bg-center rounded-3xl flex flex-col md:flex-row items-center md:justify-between px-6 md:px-10 py-0 text-white shadow-lg space-y-6 md:space-y-0 md:space-x-6"
+          className="w-full bg-orange-600 bg-cover bg-center rounded-3xl flex flex-col md:flex-row items-center md:justify-between px-6 md:px-10 py-3 text-white shadow-lg space-y-6 md:space-y-0 md:space-x-6"
           style={{ backgroundImage: `url(${CenterContact})` }}
         >
           <div className="flex-shrink-0">
@@ -429,17 +433,16 @@ const Slider = [
           </div>
 
           <div>
-            <button
-              className="bg-white text-orange-600 font-semibold px-6 md:px-7 py-3 rounded-full shadow-lg transition duration-300 hover:bg-orange-600 hover:text-white w-full md:w-48"
-            >
-              Let’s Connect →
-            </button>
+           <Link
+  to="/contact"
+  className="bg-white text-orange-600 font-semibold px-6 md:px-7 py-3 rounded-full shadow-lg transition duration-300 hover:bg-orange-600 hover:text-white w-full md:w-48 inline-block text-center"
+>
+  Let’s Connect →
+</Link>
           </div>
         </div>
-      </section> */}
 
-{/* What our Customer says */}
-<Testimonials/>
+</section>
 
 
       {/* Awards and certifications section */}

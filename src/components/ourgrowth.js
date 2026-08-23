@@ -100,7 +100,7 @@ function OurGrowth() {
                 className={`
                   absolute
                   top-0
-                  left-6 sm:left-8 md:left-1/2
+                  left-3 sm:left-8 md:left-1/2
                   md:-translate-x-1/2
                   -translate-x-1/2
                   w-5 h-5
