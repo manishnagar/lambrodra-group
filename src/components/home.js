@@ -23,9 +23,6 @@ import FaqSection from './faq';
 import Testimonials from './testimonials';
 
 
-
-
-
 function Home() {
 
 
