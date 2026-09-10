@@ -441,10 +441,7 @@ const Slider = [
 </Link>
           </div>
         </div>
-
 </section>
-
-
       {/* Awards and certifications section */}
       <section className="px-6 py-8" id="awards-certifications">
        <div class="flex flex-wrap items-center justify-center gap-1 sm:gap-2 md:gap-3 mb-6 sm:mb-8 md:mb-12">
@@ -474,8 +471,6 @@ const Slider = [
 <section className="px-6 py-8 bg-orange-100" id="FAQSection">
 <FaqSection/>
       </section>
-
-
 
     </div>
   );
