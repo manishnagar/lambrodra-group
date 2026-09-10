@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/lambrodra-group/static/css/main.c6e36735.css",
+    "main.js": "/lambrodra-group/static/js/main.7c0df1e8.js",
+    "static/media/herobg.png": "/lambrodra-group/static/media/herobg.4b9bb9755407d0e0d4b0.png",
+    "static/media/faqimg.png": "/lambrodra-group/static/media/faqimg.108f32fe4efbbff1986a.png",
+    "static/media/slider8.png": "/lambrodra-group/static/media/slider8.b2b3d26dfd74577ae6ee.png",
+    "static/media/under-construction.png": "/lambrodra-group/static/media/under-construction.ca427ee143d51887a335.png",
+    "static/media/slider7.png": "/lambrodra-group/static/media/slider7.9d3c90fec96754e7a680.png",
+    "static/media/slider5.png": "/lambrodra-group/static/media/slider5.5bd7d0065bfd03e6506a.png",
+    "static/media/slider1.png": "/lambrodra-group/static/media/slider1.c48289ffe51c67b7ebab.png",
+    "static/media/man.png": "/lambrodra-group/static/media/man.8e7cc82db1779d7430f5.png",
+    "static/media/contact-us.png": "/lambrodra-group/static/media/contact-us.44e7a8d90e83b0c4f3bf.png",
+    "static/media/slider4.png": "/lambrodra-group/static/media/slider4.a918dc50787fa21eff98.png",
+    "static/media/slider6.png": "/lambrodra-group/static/media/slider6.717b51bfa111b7b7ca36.png",
+    "static/media/slider2.png": "/lambrodra-group/static/media/slider2.0877a251482069ce8559.png",
+    "static/media/circle-bg1.png": "/lambrodra-group/static/media/circle-bg1.10aeb69bcf6d263ab96e.png",
+    "static/media/slider3.png": "/lambrodra-group/static/media/slider3.46106072c07eb89fb6f6.png",
+    "static/media/center-contact.png": "/lambrodra-group/static/media/center-contact.5ad8e1ea7cf6b38063e0.png",
+    "static/media/customer-care.png": "/lambrodra-group/static/media/customer-care.0b5aa7c6cbd804c9bf52.png",
+    "static/media/logo.png": "/lambrodra-group/static/media/logo.e4698126ea3bcc6b0cb7.png",
+    "static/media/four.png": "/lambrodra-group/static/media/four.9ea9a9f6eb596e9b696e.png",
+    "static/media/one.png": "/lambrodra-group/static/media/one.91856db171a4b75cb5da.png",
+    "static/media/three.png": "/lambrodra-group/static/media/three.9fc1ba90783321b1b650.png",
+    "static/media/two.png": "/lambrodra-group/static/media/two.ab2faedc705e927b7fb8.png",
+    "index.html": "/lambrodra-group/index.html",
+    "main.c6e36735.css.map": "/lambrodra-group/static/css/main.c6e36735.css.map",
+    "main.7c0df1e8.js.map": "/lambrodra-group/static/js/main.7c0df1e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6e36735.css",
+    "static/js/main.7c0df1e8.js"
+  ]
+}
